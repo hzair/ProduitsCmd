@@ -1,0 +1,34 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titre_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_marginLeft="@dimen/defaultMarge"
+        android:layout_marginTop="@dimen/defaultMarge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/defaultTextStyle"/>
+
+    <TextView
+        android:id="@+id/page_titre"
+        style="@style/titreTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_page_titre"
+        app:layout_constraintStart_toStartOf="@+id/titre_app"
+        app:layout_constraintTop_toBottomOf="@+id/titre_app" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Achat Produit</string>
+    <string name="home_page_titre">A découvrir</string>
+    <string name="home_page_last_produit">Dernière produits</string>
+    <string name="home_page_nom_produit">Nom du produits</string>
+    <string name="home_page_description_produit">Description du produits</string>
+    <string name="ajout_produit_page_titre">Ajout d\'un produit</string>
+    <string name="ajout_produit_page_bouton_add_image">Charger Image</string>
+    <string name="ajout_produit_page_bouton_confirm_add">Confirmer</string>
+    <string name="popup_produit_nom">Nom du Produit</string>
+    <string name="popup_produit_description_titre">Description</string>
+    <string name="popup_produit_sousTitre">Petite Description</string>
+</resources>
